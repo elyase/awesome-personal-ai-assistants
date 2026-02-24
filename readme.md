@@ -63,6 +63,7 @@ These are always-on, self-hosted AI agents that connect to your existing chat ch
 ## Agent Frameworks
 
 - [pi](https://github.com/badlogic/pi-mono) - Monorepo of tools for building AI agents. Includes a unified multi-provider LLM API, agent runtime with tool calling, interactive coding agent CLI, Slack bot, terminal UI library, web UI components, and vLLM pod management. `TypeScript` ![Stars](https://img.shields.io/github/stars/badlogic/pi-mono)
+- [pz](https://github.com/joelreymont/pz) - Drop-in replacement for pi rewritten in Zig. 1.7MB static binary, 3ms startup, 1.4MB RAM idle. Full feature parity plus TUI with syntax highlighting, image rendering, 582 tests, and zero-alloc hot path. `Zig` ![Stars](https://img.shields.io/github/stars/joelreymont/pz)
 
 ## Deployment
 
@@ -99,6 +100,7 @@ These are always-on, self-hosted AI agents that connect to your existing chat ch
 | AstrBot | Python | 8+ | Plugin-based | No | Yes | No |
 | LangBot | Python | 10+ | Knowledge base | No | Yes | No |
 | pi | TypeScript | Slack | Stateful | No | Yes | No |
+| pz | Zig | CLI | Sessions | No | Yes | No |
 | MoltWorker | TypeScript | (OpenClaw) | (OpenClaw) | Edge/Workers | (OpenClaw) | No |
 | lettabot | TypeScript | 4 | Persistent (Letta) | No | Yes | No |
 

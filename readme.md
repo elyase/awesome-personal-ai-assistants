@@ -35,6 +35,7 @@ These are always-on, self-hosted AI agents that connect to your existing chat ch
 - [NanoClaw](https://github.com/gavrielc/nanoclaw) - Fork-and-customize assistant built on Claude Agent SDK. Agents run in real Linux containers (Apple Container or Docker) with filesystem isolation. WhatsApp I/O, per-group memory, and scheduled tasks. Small enough to understand in 8 minutes. `TypeScript` ![Stars](https://img.shields.io/github/stars/gavrielc/nanoclaw)
 - [Clawlet](https://github.com/mosaxiv/clawlet) - Single static binary with zero dependencies. Bundles SQLite + sqlite-vec for hybrid semantic memory search. Multi-provider (OpenAI, Anthropic, Gemini, OpenRouter, local). No CGO, no runtime — drop it on any machine. `Go` ![Stars](https://img.shields.io/github/stars/mosaxiv/clawlet)
 - [Picobot](https://github.com/louisho5/picobot) - Runs on a $5 VPS or Raspberry Pi. ~8MB binary, ~28MB Docker image, ~10MB RAM idle. Telegram integration, persistent memory, tool calling, and skills — all in a single Go binary. `Go` ![Stars](https://img.shields.io/github/stars/louisho5/picobot)
+- [OpenBrowserClaw](https://github.com/sachaa/openbrowserclaw) - Browser-native assistant — zero infrastructure, the browser is the server. PWA with IndexedDB, OPFS storage, WebVM sandbox, and optional Telegram. Reimagination of NanoClaw that runs entirely in a tab. `TypeScript` ![Stars](https://img.shields.io/github/stars/sachaa/openbrowserclaw)
 - [MyClaw](https://github.com/stellarlinkco/myclaw) - Mini clawbot. Lightweight OpenClaw-inspired assistant targeting minimal footprint while keeping core functionality. `Go` ![Stars](https://img.shields.io/github/stars/stellarlinkco/myclaw)
 - [lettabot](https://github.com/letta-ai/lettabot) - Personal AI assistant that remembers everything across Telegram, Slack, WhatsApp, and Signal. Built on Letta's persistent memory engine. `TypeScript` ![Stars](https://img.shields.io/github/stars/letta-ai/lettabot)
 
@@ -64,6 +65,7 @@ These are always-on, self-hosted AI agents that connect to your existing chat ch
 
 - [pi](https://github.com/badlogic/pi-mono) - Monorepo of tools for building AI agents. Includes a unified multi-provider LLM API, agent runtime with tool calling, interactive coding agent CLI, Slack bot, terminal UI library, web UI components, and vLLM pod management. `TypeScript` ![Stars](https://img.shields.io/github/stars/badlogic/pi-mono)
 - [pz](https://github.com/joelreymont/pz) - Drop-in replacement for pi rewritten in Zig. 1.7MB static binary, 3ms startup, 1.4MB RAM idle. Full feature parity plus TUI with syntax highlighting, image rendering, 582 tests, and zero-alloc hot path. `Zig` ![Stars](https://img.shields.io/github/stars/joelreymont/pz)
+- [PiClaw](https://github.com/rcarmo/piclaw) - Docker sandbox for running the pi coding agent with WhatsApp integration and built-in web UI. Debian-based container with Bun, dev tools, and NanoClaw-style agentic loop. `TypeScript` ![Stars](https://img.shields.io/github/stars/rcarmo/piclaw)
 
 ## Deployment
 
@@ -100,7 +102,9 @@ These are always-on, self-hosted AI agents that connect to your existing chat ch
 | AstrBot | Python | 8+ | Plugin-based | No | Yes | No |
 | LangBot | Python | 10+ | Knowledge base | No | Yes | No |
 | pi | TypeScript | Slack | Stateful | No | Yes | No |
+| OpenBrowserClaw | TypeScript | Browser, Telegram | IndexedDB/OPFS | WebVM | Anthropic | No |
 | pz | Zig | CLI | Sessions | No | Yes | No |
+| PiClaw | TypeScript | WhatsApp, Web | Volumes | Docker | Via pi | No |
 | MoltWorker | TypeScript | (OpenClaw) | (OpenClaw) | Edge/Workers | (OpenClaw) | No |
 | lettabot | TypeScript | 4 | Persistent (Letta) | No | Yes | No |
 

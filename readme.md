@@ -61,6 +61,7 @@ These are always-on, self-hosted AI agents that connect to your existing chat ch
 
 - [AstrBot](https://github.com/AstrBotDevs/AstrBot) - Agentic IM chatbot infrastructure integrating multiple IM platforms (QQ, WeChat, Telegram, Discord, and more), LLMs, plugins, and AI features. Production-ready with plugin marketplace. `Python` ![Stars](https://img.shields.io/github/stars/AstrBotDevs/AstrBot)
 - [LangBot](https://github.com/langbot-app/LangBot) - Production-grade platform for building agentic IM bots. Supports Discord, Slack, LINE, Telegram, WeChat, Feishu, DingTalk, QQ, and more. Integrates with ChatGPT, DeepSeek, Claude, Gemini, Ollama, and other providers. `Python` ![Stars](https://img.shields.io/github/stars/langbot-app/LangBot)
+- [Chat SDK](https://github.com/vercel/chat) - Unified TypeScript SDK for building chat bots across Slack, Microsoft Teams, Google Chat, Discord, and more. Write bot logic once with JSX card rendering, event-driven handlers, and first-class LLM streaming support. `TypeScript` ![Stars](https://img.shields.io/github/stars/vercel/chat)
 
 ## Agent Frameworks
 
@@ -108,6 +109,7 @@ These are always-on, self-hosted AI agents that connect to your existing chat ch
 | takopi | Python | Telegram | Session resume | Worktrees | Multi-engine | Parallel |
 | AstrBot | Python | 8+ | Plugin-based | No | Yes | No |
 | LangBot | Python | 10+ | Knowledge base | No | Yes | No |
+| Chat SDK | TypeScript | 5+ | Pluggable (Redis) | No | Yes | No |
 | pi | TypeScript | Slack | Stateful | No | Yes | No |
 | OpenBrowserClaw | TypeScript | Browser, Telegram | IndexedDB/OPFS | WebVM | Anthropic | No |
 | pz | Zig | CLI | Sessions | No | Yes | No |

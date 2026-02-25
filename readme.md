@@ -38,6 +38,7 @@ These are always-on, self-hosted AI agents that connect to your existing chat ch
 - [OpenBrowserClaw](https://github.com/sachaa/openbrowserclaw) - Browser-native assistant — zero infrastructure, the browser is the server. PWA with IndexedDB, OPFS storage, WebVM sandbox, and optional Telegram. Reimagination of NanoClaw that runs entirely in a tab. `TypeScript` ![Stars](https://img.shields.io/github/stars/sachaa/openbrowserclaw)
 - [MyClaw](https://github.com/stellarlinkco/myclaw) - Mini clawbot. Lightweight OpenClaw-inspired assistant targeting minimal footprint while keeping core functionality. `Go` ![Stars](https://img.shields.io/github/stars/stellarlinkco/myclaw)
 - [lettabot](https://github.com/letta-ai/lettabot) - Personal AI assistant that remembers everything across Telegram, Slack, WhatsApp, and Signal. Built on Letta's persistent memory engine. `TypeScript` ![Stars](https://img.shields.io/github/stars/letta-ai/lettabot)
+- [rho](https://github.com/mikeyobrien/rho) - Always-on AI agent that stays running, remembers across sessions, and checks in on its own. Runs on macOS, Linux, and Android (Termux). Built on pi. `TypeScript` ![Stars](https://img.shields.io/github/stars/mikeyobrien/rho)
 
 ## Bare Metal
 
@@ -66,10 +67,16 @@ These are always-on, self-hosted AI agents that connect to your existing chat ch
 - [pi](https://github.com/badlogic/pi-mono) - Monorepo of tools for building AI agents. Includes a unified multi-provider LLM API, agent runtime with tool calling, interactive coding agent CLI, Slack bot, terminal UI library, web UI components, and vLLM pod management. `TypeScript` ![Stars](https://img.shields.io/github/stars/badlogic/pi-mono)
 - [pz](https://github.com/joelreymont/pz) - Drop-in replacement for pi rewritten in Zig. 1.7MB static binary, 3ms startup, 1.4MB RAM idle. Full feature parity plus TUI with syntax highlighting, image rendering, 582 tests, and zero-alloc hot path. `Zig` ![Stars](https://img.shields.io/github/stars/joelreymont/pz)
 - [PiClaw](https://github.com/rcarmo/piclaw) - Docker sandbox for running the pi coding agent with WhatsApp integration and built-in web UI. Debian-based container with Bun, dev tools, and NanoClaw-style agentic loop. `TypeScript` ![Stars](https://img.shields.io/github/stars/rcarmo/piclaw)
+- [oh-my-pi](https://github.com/can1357/oh-my-pi) - Preconfigured pi fork with enhanced web tools, a built-in memory system, and hash-anchored edits. Optimized tool harness with LSP, browser, and subagent support. `TypeScript` ![Stars](https://img.shields.io/github/stars/can1357/oh-my-pi)
+- [pi_agent_rust](https://github.com/Dicklesworthstone/pi_agent_rust) - High-performance Rust port of the pi coding agent. Zero unsafe code, full CLI with tool calling. `Rust` ![Stars](https://img.shields.io/github/stars/Dicklesworthstone/pi_agent_rust)
+- [Modern](https://github.com/philipp-spiess/modern) - Agentic development environment with a graphical UI for pi. Desktop app for users who prefer GUI over terminal. `TypeScript` ![Stars](https://img.shields.io/github/stars/philipp-spiess/modern)
+- [Goose](https://github.com/block/goose) - Extensible AI agent by Block. Headless and interactive modes, plugin system, and multi-provider support. `Rust` ![Stars](https://img.shields.io/github/stars/block/goose)
+- [Opal](https://github.com/matteing/opal) - Coding agent built on Elixir/Erlang. Leverages BEAM's fault tolerance and concurrency for a different take on agent architecture. `Elixir` ![Stars](https://img.shields.io/github/stars/matteing/opal)
 
 ## Deployment
 
 - [MoltWorker](https://github.com/cloudflare/moltworker) - Run OpenClaw on Cloudflare Workers. Edge deployment with serverless scaling, no VPS needed. `TypeScript` ![Stars](https://img.shields.io/github/stars/cloudflare/moltworker)
+- [Gondolin](https://github.com/earendil-works/gondolin) - Micro-VM agent sandbox with a TypeScript control plane. Spin up lightweight Linux VMs for secure agent execution with resource isolation. `TypeScript` ![Stars](https://img.shields.io/github/stars/earendil-works/gondolin)
 
 ## Memory Systems
 
@@ -107,6 +114,13 @@ These are always-on, self-hosted AI agents that connect to your existing chat ch
 | PiClaw | TypeScript | WhatsApp, Web | Volumes | Docker | Via pi | No |
 | MoltWorker | TypeScript | (OpenClaw) | (OpenClaw) | Edge/Workers | (OpenClaw) | No |
 | lettabot | TypeScript | 4 | Persistent (Letta) | No | Yes | No |
+| rho | TypeScript | CLI, mobile | Persistent | No | Via pi | No |
+| oh-my-pi | TypeScript | CLI | Built-in | No | Yes | Subagents |
+| pi_agent_rust | Rust | CLI | Sessions | No | Yes | No |
+| Modern | TypeScript | GUI | Via pi | No | Via pi | No |
+| Goose | Rust | CLI | Built-in | Plugin | Yes | No |
+| Opal | Elixir | CLI | — | BEAM | Yes | No |
+| Gondolin | TypeScript | — | — | Micro-VM | — | No |
 
 ## Contributing
 

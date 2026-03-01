@@ -39,6 +39,7 @@ These are always-on, self-hosted AI agents that connect to your existing chat ch
 - [MyClaw](https://github.com/stellarlinkco/myclaw) - Mini clawbot. Lightweight OpenClaw-inspired assistant targeting minimal footprint while keeping core functionality. `Go` ![Stars](https://img.shields.io/github/stars/stellarlinkco/myclaw)
 - [lettabot](https://github.com/letta-ai/lettabot) - Personal AI assistant that remembers everything across Telegram, Slack, WhatsApp, and Signal. Built on Letta's persistent memory engine. `TypeScript` ![Stars](https://img.shields.io/github/stars/letta-ai/lettabot)
 - [rho](https://github.com/mikeyobrien/rho) - Always-on AI agent that stays running, remembers across sessions, and checks in on its own. Runs on macOS, Linux, and Android (Termux). Built on pi. `TypeScript` ![Stars](https://img.shields.io/github/stars/mikeyobrien/rho)
+- [OpenPaw](https://github.com/daxaur/openpaw) - Turns Claude Code into a personal assistant with 38 skills (git, Telegram, Discord, Obsidian, daily briefing, and more). No daemon, no cloud. Run via `npx pawmode`. `JavaScript` ![Stars](https://img.shields.io/github/stars/daxaur/openpaw)
 
 ## Bare Metal
 

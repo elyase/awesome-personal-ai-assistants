@@ -25,6 +25,7 @@ These are always-on, self-hosted AI agents that connect to your existing chat ch
 - [nanobot](https://github.com/HKUDS/nanobot) - Ultra-lightweight assistant in ~4,000 lines of Python. Multi-provider (OpenAI, Anthropic, Gemini, DeepSeek, local), scheduled tasks, market analysis, and multi-platform chat (Telegram, Discord, Slack, Email). Research-ready codebase. `Python` ![Stars](https://img.shields.io/github/stars/HKUDS/nanobot)
 - [ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw) - Fast, small, and fully autonomous AI assistant infrastructure. Rust rewrite of the OpenClaw architecture — deploy anywhere, swap anything. `Rust` ![Stars](https://img.shields.io/github/stars/zeroclaw-labs/zeroclaw)
 - [moltis](https://github.com/moltis-org/moltis) - Single binary personal assistant with long-term memory, sandboxed execution, voice I/O, MCP tools, and multi-channel access (web, Telegram, API). `Rust` ![Stars](https://img.shields.io/github/stars/moltis-org/moltis)
+- [OpenPaw](https://github.com/daxaur/openpaw) - Turns Claude Code into a personal assistant with 38 skills (Telegram, Discord, Obsidian, daily briefings, and more). Run via `npx pawmode`. No daemon, no cloud. `Node.js` ![Stars](https://img.shields.io/github/stars/daxaur/openpaw)
 - [Sentient](https://github.com/existence-master/Sentient) - Personal AI assistant for everyone. Multi-provider, extensible plugin system, and local-first design. `Python` ![Stars](https://img.shields.io/github/stars/existence-master/Sentient)
 - [Gaia](https://github.com/theexperiencecompany/gaia) - Proactive personal AI assistant for daily work, inspired by Jarvis. Scheduled automations and integrations for productivity workflows. `TypeScript` ![Stars](https://img.shields.io/github/stars/theexperiencecompany/gaia)
 - [MARVIN](https://github.com/SterlingChin/marvin-template) - Template-based personal AI assistant that connects to the apps you need and handles your day. Easy to fork and customize. `Shell` ![Stars](https://img.shields.io/github/stars/SterlingChin/marvin-template)
@@ -122,6 +123,7 @@ These are always-on, self-hosted AI agents that connect to your existing chat ch
 | Modern | TypeScript | GUI | Via pi | No | Via pi | No |
 | Goose | Rust | CLI | Built-in | Plugin | Yes | No |
 | Opal | Elixir | CLI | — | BEAM | Yes | No |
+| OpenPaw | Node.js | Telegram, Discord | Obsidian | No | Anthropic | No |
 | Gondolin | TypeScript | — | — | Micro-VM | — | No |
 
 ## Contributing

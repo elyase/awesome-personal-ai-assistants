@@ -51,6 +51,7 @@ These are always-on, self-hosted AI agents that connect to your existing chat ch
 
 ## Multi-Agent
 
+- [Hivekeep](https://github.com/MarlBurroW/hivekeep) - Self-hosted platform to run a team of specialized AI agents that collaborate, share persistent memory, and build their own tools, mini-apps, and plugins. Web UI plus Telegram, Slack, Discord, and Matrix channels. Single container (Bun + SQLite). `TypeScript` ![Stars](https://img.shields.io/github/stars/MarlBurroW/hivekeep)
 - [TinyClaw](https://github.com/jlia0/tinyclaw) - Run multiple teams of AI agents that collaborate with chain execution and fan-out. Discord, WhatsApp, and Telegram channels. Supports both Anthropic Claude and OpenAI Codex. Live TUI dashboard for monitoring agent chains. `Node.js/Bash` ![Stars](https://img.shields.io/github/stars/jlia0/tinyclaw)
 
 ## Bridges & Orchestrators
@@ -105,6 +106,7 @@ These are always-on, self-hosted AI agents that connect to your existing chat ch
 | MimiClaw | C | — | Local | Bare metal | No | No |
 | SubZeroClaw | C | — | Skill files | None | Via API | No |
 | IronClaw | Rust | Multi (WASM) | Hybrid search | WASM + Docker | NEAR AI | No |
+| Hivekeep | TypeScript | Web, Telegram, Slack, Discord, Matrix | Persistent | Container | Yes | Teams |
 | TinyClaw | Node.js/Bash | 3 | Persistent | Isolated workspaces | Claude + Codex | Teams |
 | takopi | Python | Telegram | Session resume | Worktrees | Multi-engine | Parallel |
 | AstrBot | Python | 8+ | Plugin-based | No | Yes | No |

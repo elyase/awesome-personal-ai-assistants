@@ -60,8 +60,9 @@ These are always-on, self-hosted AI agents that connect to your existing chat ch
 ## IM Bot Platforms
 
 - [AstrBot](https://github.com/AstrBotDevs/AstrBot) - Agentic IM chatbot infrastructure integrating multiple IM platforms (QQ, WeChat, Telegram, Discord, and more), LLMs, plugins, and AI features. Production-ready with plugin marketplace. `Python` ![Stars](https://img.shields.io/github/stars/AstrBotDevs/AstrBot)
-- [LangBot](https://github.com/langbot-app/LangBot) - Production-grade platform for building agentic IM bots. Supports Discord, Slack, LINE, Telegram, WeChat, Feishu, DingTalk, QQ, and more. Integrates with ChatGPT, DeepSeek, Claude, Gemini, Ollama, and other providers. `Python` ![Stars](https://img.shields.io/github/stars/langbot-app/LangBot)
 - [Chat SDK](https://github.com/vercel/chat) - Unified TypeScript SDK for building chat bots across Slack, Microsoft Teams, Google Chat, Discord, and more. Write bot logic once with JSX card rendering, event-driven handlers, and first-class LLM streaming support. `TypeScript` ![Stars](https://img.shields.io/github/stars/vercel/chat)
+- [LangBot](https://github.com/langbot-app/LangBot) - Production-grade platform for building agentic IM bots. Supports Discord, Slack, LINE, Telegram, WeChat, Feishu, DingTalk, QQ, and more. Integrates with ChatGPT, DeepSeek, Claude, Gemini, Ollama, and other providers. `Python` ![Stars](https://img.shields.io/github/stars/langbot-app/LangBot)
+- [qq-ai-bot](https://github.com/happysnaker/qq-ai-bot) - Production-grade self-hosted QQ ↔ AI bridge for OneBot 11 / NapCat / LLOneBot and ACP-compatible agents, with persistent sessions, progress streaming, `/metrics`, and a Docker demo stack. `TypeScript` ![Stars](https://img.shields.io/github/stars/happysnaker/qq-ai-bot)
 
 ## Agent Frameworks
 
@@ -108,8 +109,9 @@ These are always-on, self-hosted AI agents that connect to your existing chat ch
 | TinyClaw | Node.js/Bash | 3 | Persistent | Isolated workspaces | Claude + Codex | Teams |
 | takopi | Python | Telegram | Session resume | Worktrees | Multi-engine | Parallel |
 | AstrBot | Python | 8+ | Plugin-based | No | Yes | No |
-| LangBot | Python | 10+ | Knowledge base | No | Yes | No |
 | Chat SDK | TypeScript | 5+ | Pluggable (Redis) | No | Yes | No |
+| LangBot | Python | 10+ | Knowledge base | No | Yes | No |
+| qq-ai-bot | TypeScript | QQ / OneBot | Persistent sessions | No | ACP bridge | No |
 | pi | TypeScript | Slack | Stateful | No | Yes | No |
 | OpenBrowserClaw | TypeScript | Browser, Telegram | IndexedDB/OPFS | WebVM | Anthropic | No |
 | pz | Zig | CLI | Sessions | No | Yes | No |

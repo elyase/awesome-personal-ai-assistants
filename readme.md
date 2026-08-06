@@ -51,6 +51,7 @@ These are always-on, self-hosted AI agents that connect to your existing chat ch
 
 ## Multi-Agent
 
+- [Orkas](https://github.com/Orkas-AI/Orkas) - Local-first desktop AI workforce whose Commander coordinates specialist agents through one chat. `TypeScript` ![Stars](https://img.shields.io/github/stars/Orkas-AI/Orkas)
 - [TinyClaw](https://github.com/jlia0/tinyclaw) - Run multiple teams of AI agents that collaborate with chain execution and fan-out. Discord, WhatsApp, and Telegram channels. Supports both Anthropic Claude and OpenAI Codex. Live TUI dashboard for monitoring agent chains. `Node.js/Bash` ![Stars](https://img.shields.io/github/stars/jlia0/tinyclaw)
 
 ## Bridges & Orchestrators

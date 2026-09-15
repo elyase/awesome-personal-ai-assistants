@@ -30,6 +30,8 @@ These are always-on, self-hosted AI agents that connect to your existing chat ch
 - [MARVIN](https://github.com/SterlingChin/marvin-template) - Template-based personal AI assistant that connects to the apps you need and handles your day. Easy to fork and customize. `Shell` ![Stars](https://img.shields.io/github/stars/SterlingChin/marvin-template)
 - [personal-ai-assistant](https://github.com/kaymen99/personal-ai-assistant) - Multi-agent assistant connecting to WhatsApp, Slack, or Telegram. Manages emails, schedule, to-dos, messages, and daily research. `Python` ![Stars](https://img.shields.io/github/stars/kaymen99/personal-ai-assistant)
 
+- [Vellum](https://github.com/vellum-ai/vellum-assistant) - Personal AI assistant with persistent memory, scheduled tasks, MCP integrations, and access through desktop and messaging clients. Supports self-hosting and local models through Ollama. `TypeScript`
+
 ## Lightweight
 
 - [NanoClaw](https://github.com/gavrielc/nanoclaw) - Fork-and-customize assistant built on Claude Agent SDK. Agents run in real Linux containers (Apple Container or Docker) with filesystem isolation. WhatsApp I/O, per-group memory, and scheduled tasks. Small enough to understand in 8 minutes. `TypeScript` ![Stars](https://img.shields.io/github/stars/gavrielc/nanoclaw)

@@ -29,6 +29,7 @@ These are always-on, self-hosted AI agents that connect to your existing chat ch
 - [Gaia](https://github.com/theexperiencecompany/gaia) - Proactive personal AI assistant for daily work, inspired by Jarvis. Scheduled automations and integrations for productivity workflows. `TypeScript` ![Stars](https://img.shields.io/github/stars/theexperiencecompany/gaia)
 - [MARVIN](https://github.com/SterlingChin/marvin-template) - Template-based personal AI assistant that connects to the apps you need and handles your day. Easy to fork and customize. `Shell` ![Stars](https://img.shields.io/github/stars/SterlingChin/marvin-template)
 - [personal-ai-assistant](https://github.com/kaymen99/personal-ai-assistant) - Multi-agent assistant connecting to WhatsApp, Slack, or Telegram. Manages emails, schedule, to-dos, messages, and daily research. `Python` ![Stars](https://img.shields.io/github/stars/kaymen99/personal-ai-assistant)
+- [ScallopBot](https://github.com/tashfeenahmed/scallopbot) - Self-hosted assistant with bio-inspired long-term memory: nightly sleep-style consolidation, decay, and hybrid BM25 + embedding recall (LoCoMo F1 0.48 vs 0.38 for OpenClaw on the same models). Telegram, Discord, Slack, WhatsApp, Signal, Matrix, and web channels, OpenClaw-compatible skills, and memory exposed over MCP. [Website](https://scallopbot.com). `TypeScript` ![Stars](https://img.shields.io/github/stars/tashfeenahmed/scallopbot)
 
 ## Lightweight
 

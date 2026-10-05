@@ -50,6 +50,7 @@ These are always-on, self-hosted AI agents that connect to your existing chat ch
 - [IronClaw](https://github.com/nearai/ironclaw) - Defense-in-depth architecture with WASM-sandboxed tools, credential injection (secrets never exposed to tool code), prompt injection detection, and endpoint allowlisting. Dynamic tool building, Docker sandbox, web gateway, and routines engine. `Rust` ![Stars](https://img.shields.io/github/stars/nearai/ironclaw)
 
 ## Multi-Agent
+- [AI Group Call](https://aigroupcall.app) - Live voice call with up to eight AI agents around one goal — they debate, brainstorm and hand you a summary and action items.
 
 - [TinyClaw](https://github.com/jlia0/tinyclaw) - Run multiple teams of AI agents that collaborate with chain execution and fan-out. Discord, WhatsApp, and Telegram channels. Supports both Anthropic Claude and OpenAI Codex. Live TUI dashboard for monitoring agent chains. `Node.js/Bash` ![Stars](https://img.shields.io/github/stars/jlia0/tinyclaw)
 

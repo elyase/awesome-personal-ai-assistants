@@ -29,6 +29,7 @@ These are always-on, self-hosted AI agents that connect to your existing chat ch
 - [Gaia](https://github.com/theexperiencecompany/gaia) - Proactive personal AI assistant for daily work, inspired by Jarvis. Scheduled automations and integrations for productivity workflows. `TypeScript` ![Stars](https://img.shields.io/github/stars/theexperiencecompany/gaia)
 - [MARVIN](https://github.com/SterlingChin/marvin-template) - Template-based personal AI assistant that connects to the apps you need and handles your day. Easy to fork and customize. `Shell` ![Stars](https://img.shields.io/github/stars/SterlingChin/marvin-template)
 - [personal-ai-assistant](https://github.com/kaymen99/personal-ai-assistant) - Multi-agent assistant connecting to WhatsApp, Slack, or Telegram. Manages emails, schedule, to-dos, messages, and daily research. `Python` ![Stars](https://img.shields.io/github/stars/kaymen99/personal-ai-assistant)
+- [Mimir](https://github.com/currentbits/mimir) - Desktop app (macOS, Windows, Linux) or Docker server that runs personal assistants on your existing Claude, ChatGPT or Grok subscription, or any API key. Telegram, Slack, Discord, Signal and desktop chat, shared long-term memory, learned skills, scheduled routines, MCP tool servers, and approval before risky actions. `Rust` ![Stars](https://img.shields.io/github/stars/currentbits/mimir)
 
 ## Lightweight
 
